@@ -1,3 +1,13 @@
+/*Math.floor(Math.random()*16777215).toString(16)*/
+
+@keyframes  random {
+  10% { background-color: #98ddc2; }
+  30% { background-color: #7d8a2f; }
+  50% { background-color: #9ccf5c; }
+  70% { background-color: #732e96; }
+  90% { background-color: #ba9eb5; }
+}
+
 html {
   overflow-y: scroll;
 }
@@ -8,7 +18,11 @@ body {
   font-size: 13px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #919191;
-  background: url(http://old.bz55.com/uploads/allimg/150706/139-150F61A645.jpg) 0 0;
+  /*  background-image: -webkit-linear-gradient(-45deg, orange, green);
+  background-image: linear-gradient(-45deg,orange,green);*/
+  background-color: ##9ccf5c;
+  -webkit-animation: random 10s infinite;
+  animation: random 10s infinite;
 }
 
 .justify {
@@ -37,7 +51,7 @@ body {
   display: none;
 }
 
-.clear:after {
+.top:after {
   content: ".";
   display: block;
   height: 0;
@@ -46,16 +60,20 @@ body {
   line-height: 0;
 }
 
-.clear {
+header .top a {
+  color: #efefef;
+}
+
+.top {
   display: inline-block;
   clear: both;
 }
 
-html[xmlns] .clear {
+html[xmlns] .top {
   display: block;
 }
 
-* html .clear {
+* html .top {
   height: 1%;
 }
 
