@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ICMOC - Encore Shao - 邵壮</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Encore Shao" />
+  <meta name="robots" content="index, follow">
+  <meta name="description"
+    content="Encore Shao — Full-stack Engineer & AI Researcher specializing in Ruby on Rails, Agentic AI, and scalable web applications." />
+  <meta name="keywords" content="Encore Shao, 邵壮, Ruby On Rails, Engineer, AI Researcher, MCP, Agentic AI" />
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" media="all" href="./assets/css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ─── Nav ──────────────────────────────────────── -->
+  <header class="nav-wrap" id="navWrap">
+    <nav class="main-nav">
+      <a href="#home" class="nav-logo">Encore<span class="nav-logo-accent"> Shao</span></a>
+      <ul class="nav-list">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#what-i-do">Skills</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="mailto:encore.shao@gmail.com" class="nav-cta">Contact Me</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="mobile-nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ─── Mobile Nav ────────────────────────────────── -->
+  <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true">
+    <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <ul class="mobile-nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#what-i-do">Skills</a></li>
+      <li><a href="#work">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <!-- ─── Hero ──────────────────────────────────────── -->
+    <section class="hero" id="home">
+      <div id="particles-js"></div>
+
+      <!-- Aurora blobs -->
+      <div class="aurora" aria-hidden="true">
+        <div class="aurora-blob aurora-blob-1"></div>
+        <div class="aurora-blob aurora-blob-2"></div>
+        <div class="aurora-blob aurora-blob-3"></div>
+      </div>
+
+      <!-- Giant decorative text -->
+      <div class="hero-deco" aria-hidden="true">ENCORE</div>
+
+      <div class="hero-content">
+        <div class="hero-avatar-wrap">
+          <div class="hero-avatar-ring"></div>
+          <img class="hero-avatar" src="https://cdn.ekohe.com/xd6T/Encore-avatar.png" alt="Encore Shao" />
+        </div>
+        <div class="hero-badge"><i class="fa-solid fa-circle-nodes"></i> Open to Collaboration</div>
+        <h1 class="hero-title">Encore Shao</h1>
+        <h2 class="hero-subtitle">
+          <span id="typed-role"></span><span class="type-cursor" aria-hidden="true">|</span>
+        </h2>
+        <p class="hero-desc">
+          Building scalable <strong>Ruby on Rails</strong> apps &amp; pioneering <strong>Agentic AI</strong>
+          systems.<br />
+          Based in Shanghai · Available worldwide.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn btn-glow">
+            <i class="fa-solid fa-arrow-right"></i> View Projects
+          </a>
+          <a href="#contact" class="btn btn-ghost-white">
+            <i class="fa-solid fa-envelope"></i> Get in Touch
+          </a>
+        </div>
+
+        <div class="hero-stack" aria-label="Core technologies">
+          <span class="hero-stack-tag">Ruby on Rails</span>
+          <span class="hero-stack-tag">Agentic AI</span>
+          <span class="hero-stack-tag">MCP</span>
+          <span class="hero-stack-tag">iOS</span>
+          <span class="hero-stack-tag">Java</span>
+        </div>
+      </div>
+
+      <a href="#about" class="hero-scroll" aria-label="Scroll down">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ─── About ─────────────────────────────────────── -->
+    <section class="card-section reveal" id="about">
+      <div class="about-grid">
+        <div class="about-img-col">
+          <div class="about-img-frame">
+            <img src="https://cdn.ekohe.com/xd6T/Encore-avatar.png" alt="Encore Shao" />
+            <div class="about-img-glow" aria-hidden="true"></div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <p class="section-eyebrow">Who I am</p>
+          <h2 class="section-title">About Me</h2>
+          <h3 class="about-name">Encore Shao <span class="about-name-zh">邵壮</span></h3>
+          <p class="about-meta">
+            <i class="fa-solid fa-location-dot"></i> Shanghai, China
+            &nbsp;&middot;&nbsp;
+            <span class="tag-accent">Full-stack Engineer &amp; AI Researcher</span>
+          </p>
+          <p class="about-bio">
+            I build scalable web applications and develop AI-powered tools. With deep expertise in Ruby on Rails and a
+            growing focus on Agentic AI systems, I love turning complex ideas into elegant, working software.
+          </p>
+          <p class="about-bio">
+            Looking to collaborate? <a href="mailto:encore.shao@gmail.com">encore.shao@gmail.com</a>
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">10<span class="stat-plus">+</span></span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">20<span class="stat-plus">+</span></span>
+              <span class="stat-label">Projects Shipped</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Cups of Coffee</span>
+            </div>
+          </div>
+          <div class="about-btns">
+            <a href="mailto:encore.shao@gmail.com" class="btn btn-primary">Contact Me</a>
+            <a href="https://blog.icmoc.com" class="btn btn-ghost" target="_blank" rel="noopener">My Blog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── Skills ────────────────────────────────────── -->
+    <section class="card-section reveal" id="what-i-do">
+      <p class="section-eyebrow">What I work with</p>
+      <h2 class="section-title">Skills &amp; Expertise</h2>
+
+      <!-- Highlight cards -->
+      <div class="skill-highlights">
+        <div class="shc shc-blue">
+          <div class="shc-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>Backend</h3>
+          <p>Ruby on Rails · Java · Python · SQL · REST &amp; GraphQL APIs</p>
+        </div>
+        <div class="shc shc-purple">
+          <div class="shc-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>AI &amp; Automation</h3>
+          <p>Agentic AI · MCP Servers · LLM Tooling · AI Research</p>
+        </div>
+        <div class="shc shc-cyan">
+          <div class="shc-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <h3>Client-Side</h3>
+          <p>iOS Development · Chrome Extensions · Web Performance</p>
+        </div>
+      </div>
+
+      <!-- Skill bars -->
+      <div class="skills-bars-wrap">
+        <div class="skill-bar-row">
+          <span class="skill-label">Ruby on Rails</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="95%"></div>
+          </div>
+          <span class="skill-percent">95%</span>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-label">Java</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="90%"></div>
+          </div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-label">Chrome Extension</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="90%"></div>
+          </div>
+          <span class="skill-percent">90%</span>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-label">SQL</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="80%"></div>
+          </div>
+          <span class="skill-percent">80%</span>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-label">iOS</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="70%"></div>
+          </div>
+          <span class="skill-percent">70%</span>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-label">Agentic AI</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="60%"></div>
+          </div>
+          <span class="skill-percent">60%</span>
+        </div>
+        <div class="skill-bar-row">
+          <span class="skill-label">Python</span>
+          <div class="progress">
+            <div class="progress-bar" data-width="50%"></div>
+          </div>
+          <span class="skill-percent">50%</span>
+        </div>
+      </div>
+
+      <div class="skills-callout">
+        <div class="callout-icon" aria-hidden="true"><i class="fa-solid fa-layer-group"></i></div>
+        <div>
+          <h3>Building anything from scratch</h3>
+          <p>Database-driven apps to lightweight tools — every project is fast, accessible, and built to scale.</p>
+        </div>
+        <a href="https://icmoc.com" class="btn btn-primary" target="_blank" rel="noopener">Skills Tracker</a>
+      </div>
+    </section>
+
+    <!-- ─── Projects ──────────────────────────────────── -->
+    <section class="card-section reveal" id="work">
+      <p class="section-eyebrow">What I've built</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <a class="project-card pc-featured" href="https://icmoc.com" target="_blank" rel="noopener"
+          style="--pc-accent: #3B82F6">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80"
+              alt="Tech Journey Blog" />
+            <span class="pc-num">01</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Blog</span>
+            <h3>Tech Journey</h3>
+            <p>Programming insights, tutorials, and developer stories from the field</p>
+            <span class="pc-link">icmoc.com</span>
+          </div>
+        </a>
+
+        <div class="project-card" style="--pc-accent: #22D3EE">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1565417814737-6b4097de8a3a?w=600&q=80"
+              alt="Enterprise Solutions" />
+            <span class="pc-num">02</span>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Rails</span>
+            <h3>Enterprise Solutions</h3>
+            <p>Custom web applications for elevator industry clients</p>
+          </div>
+        </div>
+
+        <div class="project-card" style="--pc-accent: #F59E0B">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=600&q=80"
+              alt="API Integration Hub" />
+            <span class="pc-num">03</span>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">API</span>
+            <h3>API Integration Hub</h3>
+            <p>Advanced social data collection and analysis platform</p>
+          </div>
+        </div>
+
+        <div class="project-card" style="--pc-accent: #EC4899">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80" alt="TrendShop" />
+            <span class="pc-num">04</span>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">AI</span>
+            <h3>TrendShop</h3>
+            <p>AI-powered social fashion discovery and shopping platform</p>
+          </div>
+        </div>
+
+        <div class="project-card" style="--pc-accent: #10B981">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="WorkflowPro" />
+            <span class="pc-num">05</span>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">OA</span>
+            <h3>WorkflowPro</h3>
+            <p>Office automation system with integrated HR and workflow tools</p>
+          </div>
+        </div>
+
+        <a class="project-card" href="https://erp.icmoc.com" target="_blank" rel="noopener"
+          style="--pc-accent: #6366F1">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1560574188-6a6774965120?w=600&q=80"
+              alt="Enterprise Resource Hub" />
+            <span class="pc-num">06</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">ERP</span>
+            <h3>Enterprise Resource Hub</h3>
+            <p>Full-featured ERP with project and contract management</p>
+            <span class="pc-link">erp.icmoc.com</span>
+          </div>
+        </a>
+
+        <a class="project-card pc-featured" href="https://www.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #A855F7">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80" alt="RanBot" />
+            <span class="pc-num">07</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">AI</span>
+            <h3>RanBot</h3>
+            <p>AI-powered bot platform for automation and intelligent agentic workflows</p>
+            <span class="pc-link">ranbot.online</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://data-graph.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #3B82F6">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data Graph" />
+            <span class="pc-num">08</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Data</span>
+            <h3>Data Graph</h3>
+            <p>Interactive data visualization and graph exploration tool</p>
+            <span class="pc-link">data-graph.ranbot.online</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://github.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #8B5CF6">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80" alt="GitHub Explorer" />
+            <span class="pc-num">09</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Dev Tool</span>
+            <h3>GitHub Explorer</h3>
+            <p>GitHub profile and repository viewer with enriched insights</p>
+            <span class="pc-link">github.ranbot.online</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://rss.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #F59E0B">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80" alt="RSS Reader" />
+            <span class="pc-num">10</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">RSS</span>
+            <h3>RSS Reader</h3>
+            <p>Clean and fast RSS feed aggregator for staying up to date</p>
+            <span class="pc-link">rss.ranbot.online</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://bookmark.linktr.cn/" target="_blank" rel="noopener"
+          style="--pc-accent: #10B981">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80"
+              alt="Bookmark Dashboard" />
+            <span class="pc-num">11</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Bookmarks</span>
+            <h3>Bookmark Dashboard</h3>
+            <p>Curated bookmark collection and link management service</p>
+            <span class="pc-link">bookmark.linktr.cn</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://viewer.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #22D3EE">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&q=80" alt="Viewer" />
+            <span class="pc-num">12</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Tool</span>
+            <h3>Viewer</h3>
+            <p>Online content viewer for documents and media files</p>
+            <span class="pc-link">viewer.ranbot.online</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://video.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #EF4444">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=600&q=80" alt="Video" />
+            <span class="pc-num">13</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Video</span>
+            <h3>Video</h3>
+            <p>AI-powered video tools and media processing platform</p>
+            <span class="pc-link">video.ranbot.online</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://skills.ranbot.online/" target="_blank" rel="noopener"
+          style="--pc-accent: #14B8A6">
+          <div class="pc-img">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&q=80" alt="Skills" />
+            <span class="pc-num">14</span>
+            <div class="pc-overlay">
+              <span class="pc-cta">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </div>
+          </div>
+          <div class="pc-body">
+            <span class="pc-tag">Learning</span>
+            <h3>Skills</h3>
+            <p>Skill tracking and learning progress management tool</p>
+            <span class="pc-link">skills.ranbot.online</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ─── Contact ───────────────────────────────────── -->
+    <section class="card-section contact-section reveal" id="contact">
+      <div class="contact-inner">
+        <div class="contact-headline">
+          <p class="section-eyebrow">Let's work together</p>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="contact-tagline">Open to freelance, collaborations, and interesting problems.</p>
+          <a href="mailto:encore.shao@gmail.com" class="btn btn-glow contact-email-btn">
+            <i class="fa-solid fa-envelope"></i> encore.shao@gmail.com
+          </a>
+          <div class="contact-location">
+            <i class="fa-solid fa-location-dot"></i> Shanghai, China
+          </div>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/encoreshao" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-brands fa-github"></i><span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/encoreshao/" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-brands fa-linkedin"></i><span>LinkedIn</span>
+          </a>
+          <a href="https://twitter.com/encoreshao" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-brands fa-x-twitter"></i><span>Twitter / X</span>
+          </a>
+          <a href="https://www.facebook.com/encore.shao" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-brands fa-facebook"></i><span>Facebook</span>
+          </a>
+          <a href="https://blog.icmoc.com" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-solid fa-pen-nib"></i><span>Blog</span>
+          </a>
+          <a href="https://ekohe.com/encore" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-solid fa-briefcase"></i><span>Ekohe</span>
+          </a>
+          <a href="https://chrome.google.com/webstore/detail/imknfkidkilkomeomcidnnjojiilaofb" target="_blank"
+            rel="noopener" class="contact-link">
+            <i class="fa-brands fa-chrome"></i><span>Extension</span>
+          </a>
+          <a href="https://icmoc.com" target="_blank" rel="noopener" class="contact-link">
+            <i class="fa-solid fa-house"></i><span>ICMOC</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span class="footer-mono">© 2025</span> Encore Shao
+      <span class="footer-divider">/</span>
+      Built in Shanghai
+      <span class="footer-divider">/</span>
+      <a href="https://github.com/encoreshao" target="_blank" rel="noopener">encoreshao</a>
+    </footer>
+  </main>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script>
+    // ── Theme toggle ───────────────────────────────────
+    (function () {
+      var btn = document.getElementById('themeToggle');
+      var saved = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+
+      function applyTheme(t) {
+        document.documentElement.setAttribute('data-theme', t);
+        btn.querySelector('i').className = t === 'dark' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
+        btn.setAttribute('aria-label', t === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+
+      applyTheme(theme);
+
+      btn.addEventListener('click', function () {
+        theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', theme);
+        applyTheme(theme);
+      });
+    })();
+
+    // ── Particles ──────────────────────────────────────
+    window.addEventListener('load', function () {
+      if (window.particlesJS) {
+        particlesJS('particles-js', {
+          particles: {
+            number: { value: 45, density: { enable: true, value_area: 800 } },
+            color: { value: '#ffffff' },
+            shape: { type: 'circle' },
+            opacity: { value: 0.25, random: true },
+            size: { value: 2, random: true },
+            line_linked: { enable: true, distance: 160, color: '#4f70e0', opacity: 0.15, width: 1 },
+            move: { enable: true, speed: 0.9, random: true, out_mode: 'out' }
+          },
+          interactivity: {
+            events: { onhover: { enable: true, mode: 'grab' }, resize: true },
+            modes: { grab: { distance: 130, line_linked: { opacity: 0.4 } } }
+          },
+          retina_detect: true
+        });
+      }
+    });
+
+    // ── Typing effect ──────────────────────────────────
+    (function () {
+      var roles = ['Engineer', 'AI Researcher', 'Rails Developer', 'Builder'];
+      var el = document.getElementById('typed-role');
+      var ri = 0, ci = 0, del = false;
+      function tick() {
+        var word = roles[ri];
+        if (!del && ci <= word.length) {
+          el.textContent = word.slice(0, ci++);
+          setTimeout(tick, 85);
+        } else if (!del) {
+          del = true;
+          setTimeout(tick, 1800);
+        } else if (del && ci > 0) {
+          el.textContent = word.slice(0, --ci);
+          setTimeout(tick, 45);
+        } else {
+          del = false;
+          ri = (ri + 1) % roles.length;
+          setTimeout(tick, 300);
+        }
+      }
+      tick();
+    })();
+
+    // ── Mobile nav ─────────────────────────────────────
+    var mToggle = document.querySelector('.mobile-nav-toggle');
+    var mNav = document.getElementById('mobileNav');
+    var mClose = document.getElementById('mobileNavClose');
+    function openNav() { mNav.classList.add('active'); mToggle.setAttribute('aria-expanded', 'true'); document.body.style.overflow = 'hidden'; }
+    function closeNav() { mNav.classList.remove('active'); mToggle.setAttribute('aria-expanded', 'false'); document.body.style.overflow = ''; }
+    mToggle.addEventListener('click', openNav);
+    mClose.addEventListener('click', closeNav);
+    mNav.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closeNav); });
+
+    // ── Nav scroll state ───────────────────────────────
+    var navWrap = document.getElementById('navWrap');
+    window.addEventListener('scroll', function () {
+      navWrap.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // ── Active nav on scroll ───────────────────────────
+    var sections = document.querySelectorAll('section[id]');
+    var navAs = document.querySelectorAll('.nav-list a');
+    function syncNav() {
+      var y = window.scrollY + 80;
+      var cur = '';
+      sections.forEach(function (s) { if (y >= s.offsetTop) cur = s.id; });
+      navAs.forEach(function (a) {
+        a.parentElement.classList.remove('active');
+        if (a.getAttribute('href') === '#' + cur) a.parentElement.classList.add('active');
+      });
+    }
+    window.addEventListener('scroll', syncNav, { passive: true });
+    syncNav();
+
+    // ── Scroll to top ──────────────────────────────────
+    var stBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', function () { stBtn.classList.toggle('visible', window.scrollY > 500); }, { passive: true });
+    stBtn.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+    // ── Scroll reveal ──────────────────────────────────
+    var revObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('revealed'); revObserver.unobserve(e.target); } });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(function (el) { revObserver.observe(el); });
+
+    // ── Skill bars ─────────────────────────────────────
+    var barObs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.style.width = e.target.dataset.width; barObs.unobserve(e.target); } });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.progress-bar').forEach(function (b) { barObs.observe(b); });
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119023934-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date()); gtag('config', 'UA-119023934-1');
+  </script>
+</body>
+
+</html>
